@@ -1,0 +1,83 @@
+body {
+    width: 950px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+p {
+    display: inline-block;
+    margin-right: 545px;
+}
+
+
+select, input {
+    padding: 5px;
+}
+
+select {
+    width: 100px;
+}
+
+button {
+    padding: 7px;
+}
+
+tr, td, th {
+    padding: 7px;
+}
+
+
+td:nth-child(2) {
+    width: 500px;
+    text-align: left;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+td > a {
+    text-decoration: none;
+    color: black;
+}
+
+table {
+   border-top: 2px solid navy;
+   border-bottom: 2px solid navy;
+   border-collapse: collapse;
+   text-align: center;
+   width: 950px;
+}
+
+thead {
+    background-color: rgb(241, 241, 241);
+}
+
+#buttonList {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* color */
+.blue {
+    color: blue;
+    font-weight: bolder;
+}
+
+.bg-navy {
+    background-color: navy;
+    border: navy;
+}
+
+.white {
+    color: white
+}
+
+.bg-grey {
+    background-color: rgb(83, 80, 80);
+    border: grey;
+}
+
+
+

@@ -1,0 +1,65 @@
+/* javascript */
+.hide {
+    display: none;
+}
+
+.show {
+    display: table-row;
+}
+
+/* style */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 1000px;
+}
+
+.title td div {
+    display: inline-block;
+    margin: 0px;
+}
+
+.title td div p {
+    display: inline-block;
+    margin-top: 0px;
+    font-weight: bolder;
+}
+
+.title td {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi-caret-down-square, .bi-question-circle, .bi-check-circle, .bi-caret-up-square {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.bi-question-circle {
+    color: aqua;
+}
+
+.bi-check-circle {
+    color: red;
+}
+
+tr:nth-child(even) {
+    background-color: #f5e9e9;
+}
+
+td {
+    border: 1px solid black;
+}
+
+/* media query */
+@media screen and (max-width: 768px) {
+	table {
+        width: 500px;
+    }
+
+    .title td div p {
+       width: 300px;
+    }
+}
